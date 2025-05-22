@@ -1,0 +1,20 @@
+{
+    "name": "home/test",
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src/",
+            "Phpredis\\": "phpredis/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zigfried123",
+            "email": "zigfried123@mail.ru"
+        }
+    ],
+    "require": {
+        "predis/predis": "^3.0",
+        "php-amqplib/php-amqplib": "^3.2",
+        "textalk/websocket": "^1.5"
+    }
+}
